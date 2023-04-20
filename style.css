@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ff00c80f;
+}
+
+.container {
+    width: 100%;
+    margin-top: 6vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont {
+    width: 30%;
+}
+
+.tab {
+    width: 60%;
+    position: relative;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 3vh;
+    /* font-weight: bold; */
+    font-size: 2rem;
+}
+
+.sec {
+    margin-bottom: 3vh;
+}
+
+.labl {
+    font-size: 1.2rem;
+    margin-bottom: 4vh;
+}
+
+.inp {
+    width: 100%;
+    height: 6vh;
+    border: 1px solid #c5c5c5;
+    background: #ff00000a;
+    outline: none;
+    border-radius: 7px;
+    padding: 0 1vw;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #2e2e2e;
+    margin-top: 1vh;
+}
+
+.inpt {
+    width: 100%;
+    height: 12vh;
+    border: 1px solid #c5c5c5;
+    background: #ff00000a;
+    outline: none;
+    border-radius: 7px;
+    padding: 0 1vw;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #2e2e2e;
+    margin-top: 1vh;
+    padding-top: 0.8vh;
+}
+
+.btns {
+    display: flex;
+}
+
+.bt {
+    cursor: pointer;
+    height: 6vh;
+    width: 8vw;
+    margin-right: 15px;
+    font-size: 1rem;
+    color: #2ba900;;
+    border: 1px solid #41ff00;
+    background: #41ff1814;
+    border-radius: 8px;
+}
+
+.bt:hover {
+    color: white;
+    background: #2ba900;;
+}
+
+
+.tables {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c5c5c5;
+    padding-bottom: 1.5vh;
+}
+
+.tabbd {
+    position: absolute;
+    left: 0.5vw;
+}
+
+/*td{
+    width: 10vw;
+}*/
+
+.tsr {
+    padding: 0 1vw;
+}
+
+.ttitle {
+    width: 25vh;
+    /* padding: 0 6.5vw; */
+    text-align: center;
+}
+
+.tdesc {
+    width: 30vw;
+    text-align: center;
+}
+
+
+#btn2 {
+    width: 2.4vw;
+    height: 3.8vh;
+    font-size: 12px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-left: 7vw;
+    background-color: #ff000008;
+}
+
+#btn2:hover {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+#btn3 {
+    width: 2.4vw;
+    /* margin-left: 1px; */
+    height: 3.8vh;
+    font-size: 12.7px;
+    color: #41ff00;
+    border: 1px solid #41ff00;
+    border-radius: 5px;
+    background-color: #41ff1814;
+}
+
+#btn3:hover {
+    color: white;
+    background-color: #41ff00;
+    cursor: pointer;
+}
+
+.ssr {
+    padding: 0 3vw;
+}
+
+.stitle {
+    width: 18vw;
+    text-align: center;
+}
+
+#btn5 {
+    width: 2.4vw;
+    height: 3.8vh;
+    font-size: 12px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-left: 2.5vw;
+    background-color: white;
+}
+
+#btn5:hover {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="cont">
+            <p class="heading">ADD WORK-LIST</p>
+            <div class="sec">
+                <label for="formGroupExampleInput" class="labl">Title</label><br>
+                <input type="text" id="title" class="inp" placeholder="Enter Your Title">
+            </div>
+            <div class="sec">
+                <label for="formGroupExampleInput2" class="labl">Description</label>
+                <textarea class="inpt" id="desc" class="inpt" placeholder="Enter Description of your title"></textarea>
+            </div>
+            <div class="btns sec">
+                <button type="submit" class="bt" id="btn">Add</button>
+                <!-- <button type="submit" class="bt" id="btn" onclick="letsclear()">Clear
+                    List</button> -->
+            </div>
+            <div>
+                <p class="heading">Completed Tasks</p>
+                <table style="width: 100%;">
+                    <thead>
+                        <tr class="tables">
+                            <th scope="col">Sr No.</th>
+                            <th scope="col">Task Title</th>
+                            <th scope="col" style="margin-right: 10px;">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tabbd" id="successbody"></tbody>
+                </table>
+            </div>
+        </div>
+        <div class="tab">
+            <p class="heading">TODOs LIST</p>
+            <table style="width: 100%;">
+                <thead>
+                    <tr class="tables">
+                        <th scope="col">Sr No.</th>
+                        <th scope="col">Task Title</th>
+                        <th scope="col" style="width: 35vw;">Task Description</th>
+                        <th scope="col" style="margin-right: 10px;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody class="tabbd" id="tablebody">
+                </tbody>
+            </table>
+        </div>
+
+
+    </main>
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/8b57623ce0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
